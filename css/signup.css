@@ -1,0 +1,33 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#form{
+    display: flex;
+    flex-direction: column;
+    min-height: 40vh;
+    justify-content: space-between;
+    width: 50vw;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+#form>*{
+    margin: auto;
+}
+
+input{
+    text-align: center;
+}
+
+.name-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.name-container>*{
+    min-width: 30vh;
+
+}
